@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+button{
+    margin: 10px 20px;
+    width: 120px;
+    height: 35px;
+    transition: 0.3s;
+    border: none;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+button:hover{
+    width: 150px;
+    transition: 0.5s;
+    color: white;
+    background-color: #FF4800;
+}
+
+.bg{
+    background-color: #2E2E2E;
+    height: 1000px;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    height: 600px;
+    width: 390px;
+    background-color: #202020;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 15px 15px 0 0;
+}
+
+.card--name{
+    margin-top: 10px;
+}
+
+.card--prof{
+    margin-top: 5px;
+    color: #FF6700;
+}
+
+.card--small-desc{
+    margin-top: 5px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.card--footer{
+    align-self: flex-end; 
+    margin-top: auto;
+    background-color: #292929;
+}
+
+.footer--logos{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.footer--logos > li{
+    margin: 5px 20px;
+}
