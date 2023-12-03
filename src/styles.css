@@ -22,7 +22,7 @@ button:hover{
 }
 
 .bg{
-    background-color: #2E2E2E;
+    background: linear-gradient(#474747,#202020);
     height: 1000px;
     display: block;
     display: flex;
@@ -34,8 +34,8 @@ button:hover{
     color: white;
     text-align: center;
     letter-spacing: 2px;
-    height: 600px;
-    width: 390px;
+    height: auto;
+    width: 400px;
     background-color: #202020;
     border-radius: 15px;
     align-items: center;
@@ -66,7 +66,32 @@ button:hover{
 .card--footer{
     align-self: flex-end; 
     margin-top: auto;
-    background-color: #292929;
+    background-color: #181818;
+    border-radius: 0 0 15px 15px;
+}
+
+.content--alltext{
+    margin: 15px 25px 15px 30px;
+}
+
+.content--section-name{
+    color: #FF6700;
+    font-size: 24px;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.content--text{
+    text-align: left;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.content--text>ul{
+    margin-left: 20px;
 }
 
 .footer--logos{
@@ -77,4 +102,14 @@ button:hover{
 
 .footer--logos > li{
     margin: 5px 20px;
+}
+
+.footer--link{
+    width: 40px;
+    transition:0.2s;
+}
+
+.footer--link:hover{
+    transition:0.3s;
+    filter: brightness(0) saturate(100%) invert(30%) sepia(99%) saturate(2604%) hue-rotate(2deg) brightness(104%) contrast(104%);
 }
